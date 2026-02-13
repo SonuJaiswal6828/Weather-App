@@ -33,6 +33,7 @@ python app.py
 Open 👉 http://localhost:5000
 
 ### 📁 Project Structure
+
 weather-app/
 ├── app.py
 ├── .env
@@ -53,6 +54,7 @@ Click Search Weather
 Get real-time weather info
 
 ## 🗄️ API Response Example
+
 {
   "location": { "name": "Rome", "country": "Italy" },
   "current": {
@@ -62,6 +64,7 @@ Get real-time weather info
     "wind_mph": 4.7
   }
 }
+
 ##  🛡️ Security
 API key stored in .env
 
@@ -69,8 +72,7 @@ Sensitive files not pushed to GitHub
 
 Proper error handling
 
-📄 License
-MIT License
 
-❤️ Developed by Sonu Jaiswal
+### ❤️ Developed by Sonu Jaiswal
 ⭐ Star this repo if you like it!
+
