@@ -1,4 +1,3 @@
-"""
 # 🌤️ Weather App
 
 A modern and clean Flask-based Weather Application that provides real-time weather updates for cities worldwide. Integrated with WeatherAPI for accurate and reliable weather data.
@@ -29,18 +28,16 @@ A modern and clean Flask-based Weather Application that provides real-time weath
 ## 📦 Local Setup & Installation
 
 ### Install Dependencies
+
+
 pip install flask requests python-dotenv
-
-### Environment Configuration
+Environment Configuration
 Create a .env file in root folder:
+
 WEATHER_API_KEY=your_api_key_here
-
-### Run the App
+Run the App
 python app.py
-
 Open 👉 http://localhost:5000
-
----
 
 ## 📁 Project Structure
 weather-app/
@@ -51,16 +48,14 @@ weather-app/
 │   └── index.html
 └── static/
     └── app.js
+🎯 How to Use
+Select a country
 
----
+Select a city
 
-## 🎯 How to Use
-- Select a country  
-- Select a city  
-- Click "Search Weather"  
-- Get real-time weather info  
+Click Search Weather
 
----
+Get real-time weather info
 
 ## 🗄️ API Response Example
 {
@@ -72,21 +67,10 @@ weather-app/
     "wind_mph": 4.7
   }
 }
-
----
-
 ## 🛡️ Security
-- API key stored in .env  
-- Sensitive files not pushed to GitHub  
-- Proper error handling  
+API key stored in .env
 
----
+Sensitive files not pushed to GitHub
 
-## 📄 License
-MIT License  
+Proper error handling
 
----
-
-❤️ Developed by Sonu Jaiswal  
-⭐ Star this repo if you like it!
-"""
