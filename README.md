@@ -1,151 +1,92 @@
-🌤️ Weather App
-A modern and clean Flask-based Weather Application that provides real-time weather updates for cities worldwide. Integrated with WeatherAPI for accurate weather data.
+"""
+# 🌤️ Weather App
 
-🚀 Live Demo
-Check out the live application here:
+A modern and clean Flask-based Weather Application that provides real-time weather updates for cities worldwide. Integrated with WeatherAPI for accurate and reliable weather data.
+
+## 🚀 Live Demo  
 👉 https://weather-app-sonu.onrender.com
 
-✨ Features
-Real-time Weather: Get current temperature, conditions, humidity, and wind speed
+---
 
-Smart Location Selector: Cascading dropdowns - Select country first, then city
+## ✨ Features
+- Real-time Weather – Current temperature, condition, humidity, and wind speed  
+- Smart Location Selector – Cascading dropdowns (Select country → then city)  
+- Live API Data – City and country names fetched from WeatherAPI  
+- Beautiful UI – Modern gradient design with smooth animations  
+- Mobile Responsive – Works perfectly on all devices  
 
-Live API Data: City and country names fetched directly from WeatherAPI
+---
 
-Beautiful UI: Modern gradient design with smooth animations
+## 🛠️ Tech Stack
+- Backend: Python (Flask)  
+- Frontend: HTML5, Tailwind CSS, JavaScript  
+- API: WeatherAPI.com  
+- Icons: Font Awesome  
+- Deployment: Render  
 
-Mobile Responsive: Works perfectly on all devices
+---
 
-🛠️ Tech Stack
-Backend: Python 3.13 / Flask
+## 📦 Local Setup & Installation
 
-Frontend: HTML5, Tailwind CSS, JavaScript
-
-API: WeatherAPI.com
-
-Icons: Font Awesome
-
-Deployment: Render
-
-📦 Local Setup & Installation
-Clone the Repository:
-
-bash
-git clone https://github.com/sonujaiswal/weather-app.git
-cd weather-app
-Install Dependencies:
-
-bash
+### Install Dependencies
 pip install flask requests python-dotenv
-Get API Key:
 
-Sign up at WeatherAPI.com
-
-Get your free API key
-
-Environment Configuration:
-Create a .env file in the root folder:
-
-env
+### Environment Configuration
+Create a .env file in root folder:
 WEATHER_API_KEY=your_api_key_here
-Run the App:
 
-bash
+### Run the App
 python app.py
-Open http://localhost:5000 in your browser
 
-📁 Project Structure
-text
+Open 👉 http://localhost:5000
+
+---
+
+## 📁 Project Structure
 weather-app/
-├── app.py                 # Main Flask application
-├── .env                   # API key (not in git)
-├── requirements.txt       # Dependencies
+├── app.py
+├── .env
+├── requirements.txt
 ├── templates/
-│   └── index.html        # Main HTML template
+│   └── index.html
 └── static/
-    └── app.js            # JavaScript for dropdowns
-🎯 How to Use
-Select a Country from the dropdown menu
+    └── app.js
 
-Choose a City from the populated list
+---
 
-Click "Search Weather" to get real-time data
+## 🎯 How to Use
+- Select a country  
+- Select a city  
+- Click "Search Weather"  
+- Get real-time weather info  
 
-View Weather Info:
+---
 
-Temperature (°F)
-
-Weather condition with icon
-
-Humidity percentage
-
-Wind speed and direction
-
-Exact location (City, Country)
-
-🌍 Supported Countries
-India, USA, UK, Japan, Australia, Canada
-
-Germany, France, Brazil, South Africa
-
-UAE, Singapore, Malaysia, Indonesia
-
-Thailand, Vietnam, South Korea, China
-
-Russia, Italy, Spain, Mexico, Egypt, Nigeria
-
-*Each country includes 15+ popular cities*
-
-🗄️ API Response Example
-json
+## 🗄️ API Response Example
 {
-    "location": {
-        "name": "Rome",
-        "country": "Italy",
-        "region": "Lazio"
-    },
-    "current": {
-        "temp_f": 50.5,
-        "condition": {
-            "text": "Sunny",
-            "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
-        },
-        "humidity": 94,
-        "wind_mph": 4.7,
-        "wind_dir": "NNE"
-    }
+  "location": { "name": "Rome", "country": "Italy" },
+  "current": {
+    "temp_f": 50.5,
+    "condition": { "text": "Sunny" },
+    "humidity": 94,
+    "wind_mph": 4.7
+  }
 }
-🛡️ Security Best Practices
-Environment Variables: API key managed via .env
 
-Git Ignore: Sensitive files excluded from version control
+---
 
-Error Handling: Proper try-catch for API failures
+## 🛡️ Security
+- API key stored in .env  
+- Sensitive files not pushed to GitHub  
+- Proper error handling  
 
-Input Validation: Prevents empty form submission
+---
 
-📱 Responsive Design
-💻 Desktop: Full layout with larger cards
+## 📄 License
+MIT License  
 
-📱 Tablet: Optimized for medium screens
+---
 
-📱 Mobile: Stacked layout for small devices
-
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-
-Fork the project
-
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
-Commit changes (git commit -m 'Add AmazingFeature')
-
-Push to branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-📄 License
-This project is open source and available under the MIT License.
-
-Developed with ❤️ by Sonu Jaiswal
-⭐ Star this repository if you find it useful!
+❤️ Developed by Sonu Jaiswal  
+⭐ Star this repo if you like it!
+"""
