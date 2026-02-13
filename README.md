@@ -1,11 +1,10 @@
+"""
 # 🌤️ Weather App
 
 A modern and clean Flask-based Weather Application that provides real-time weather updates for cities worldwide. Integrated with WeatherAPI for accurate and reliable weather data.
 
 ## 🚀 Live Demo  
 👉 https://weather-app-sonu.onrender.com
-
----
 
 ## ✨ Features
 - Real-time Weather – Current temperature, condition, humidity, and wind speed  
@@ -14,8 +13,6 @@ A modern and clean Flask-based Weather Application that provides real-time weath
 - Beautiful UI – Modern gradient design with smooth animations  
 - Mobile Responsive – Works perfectly on all devices  
 
----
-
 ## 🛠️ Tech Stack
 - Backend: Python (Flask)  
 - Frontend: HTML5, Tailwind CSS, JavaScript  
@@ -23,20 +20,16 @@ A modern and clean Flask-based Weather Application that provides real-time weath
 - Icons: Font Awesome  
 - Deployment: Render  
 
----
-
 ## 📦 Local Setup & Installation
-
-### Install Dependencies
-
-
+Install Dependencies:
 pip install flask requests python-dotenv
-Environment Configuration
-Create a .env file in root folder:
 
+Environment Configuration:
+Create a .env file in root folder:
 WEATHER_API_KEY=your_api_key_here
-Run the App
-python app.py
+
+Run the App:
+python app.py  
 Open 👉 http://localhost:5000
 
 ## 📁 Project Structure
@@ -48,14 +41,12 @@ weather-app/
 │   └── index.html
 └── static/
     └── app.js
-🎯 How to Use
-Select a country
 
-Select a city
-
-Click Search Weather
-
-Get real-time weather info
+## 🎯 How to Use
+- Select a country  
+- Select a city  
+- Click "Search Weather"  
+- Get real-time weather info  
 
 ## 🗄️ API Response Example
 {
@@ -67,10 +58,15 @@ Get real-time weather info
     "wind_mph": 4.7
   }
 }
+
 ## 🛡️ Security
-API key stored in .env
+- API key stored in .env  
+- Sensitive files not pushed to GitHub  
+- Proper error handling  
 
-Sensitive files not pushed to GitHub
+## 📄 License
+MIT License  
 
-Proper error handling
-
+❤️ Developed by Sonu Jaiswal  
+⭐ Star this repo if you like it!
+"""
